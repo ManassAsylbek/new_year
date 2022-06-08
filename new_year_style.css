@@ -110,7 +110,6 @@ body {
   margin-top: 50px;
 }
 
-
 .btn-title {
   position: absolute;
   left: 20px;
@@ -170,7 +169,7 @@ body {
     --index: calc(1vw + 1vh);
   }
   body {
-    position: relative;
+    /*position: relative;*/
     /*height: 100vh;*/
     background-color: #1a5b35;
   }
@@ -188,7 +187,7 @@ body {
 
   .title {
     width: 300px;
-    margin-top: 120px;
+    margin-top: 50px;
     padding-bottom: 20px;
     font-family: "Campanella";
     font-style: normal;
@@ -226,6 +225,7 @@ body {
     position: absolute;
     left: 0;
     top: 0;
+    width: 110px;
   }
 
   .btn-title {
@@ -242,8 +242,9 @@ body {
   .center-image {
     margin-top: 20px;
     position: absolute;
-    left: 62vw;
+    left: 70vw;
     transform: rotate(-10deg);
+    width: 100px;
   }
 
   .mega {
